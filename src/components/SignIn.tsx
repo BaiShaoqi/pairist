@@ -84,7 +84,6 @@ export default function SignIn(props: Props) {
       )}
 
       <div className={styles.buttons}>
-        <Button onClick={signUp}>Sign up</Button>
         <div style={{ flexGrow: 1 }} />
         <Button bold flavor="confirm" type="submit" onClick={logIn}>
           Log in
@@ -93,7 +92,7 @@ export default function SignIn(props: Props) {
 
       <hr className={styles.divider} />
 
-      <p>To get started, create an account or log in.</p>
+      <p>To get started, ask pvtl-gp-releng-dev@vmware.com to help create an account and log in.</p>
 
       <p>
         In Pairist 2, you log in as yourself, not your team. You'll be able to create and join teams
